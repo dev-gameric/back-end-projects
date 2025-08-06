@@ -11,7 +11,7 @@ public class Documento extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Long id;
 
     private String tipoDocumento;
     private String descricao;
