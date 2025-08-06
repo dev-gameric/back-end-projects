@@ -1,9 +1,13 @@
 package com.projects.desafio.plano_de_saude.domain.entity;
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
 
 @Entity
-public class Documento {
+@Getter
+@Setter
+public class Documento extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
