@@ -21,7 +21,7 @@ public class BeneficiarioMapper {
         List<Documento> documentos = req.documentos().stream().map(d -> {
             Documento doc = new Documento();
             doc.setTipoDocumento(d.tipoDocumento());
-            doc.setDescricao(d.decricao());
+            doc.setDescricao(d.descricao());
             doc.setBeneficiario(b);
             return doc;
         }).toList();
