@@ -52,7 +52,7 @@ public class BeneficiarioService {
         for (DocumentoDTO doc : request.documentos()) {
             Documento d = new Documento();
             d.setTipoDocumento(doc.tipoDocumento());
-            d.setDescricao(doc.decricao());
+            d.setDescricao(doc.descricao());
             d.setBeneficiario(b);
             b.getDocumentos().add(d);
         }

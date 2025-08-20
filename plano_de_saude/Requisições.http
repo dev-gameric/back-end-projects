@@ -15,11 +15,11 @@ Content-Type: application/json
   "documentos": [
     {
       "tipoDocumento": "CPF",
-      "decricao": "123.456.789-23"
+      "descricao": "123.456.789-23"
     },
     {
       "tipoDocumento": "RG",
-      "decricao": "7894561325-89"
+      "descricao": "7894561325-89"
     }
   ]
 
@@ -36,11 +36,11 @@ Content-Type: application/json
   "documentos": [
     {
       "tipoDocumento": "CPF",
-      "decricao": "987.654.321.12"
+      "descricao": "987.654.321.12"
     },
     {
       "tipoDocumento": "RG",
-      "decricao": "987654321-23"
+      "descricao": "987654321-23"
     }
   ]
 
